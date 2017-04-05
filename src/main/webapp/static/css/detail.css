@@ -1,0 +1,95 @@
+@charset "utf-8";
+/***文章详情页面css样式文件***/
+
+.wrap {
+    margin:20px auto;
+    width:1000px;
+}
+
+.left {
+    width: 70%;
+    float:left;
+}
+
+.article{
+    font-family: 微软雅黑;
+    line-height:30px;
+}
+
+.article .title {
+    text-align: center;
+    font-size: 28px;
+    color: #565353;
+    letter-spacing: 2px;
+    margin-top:20px;
+}
+
+.article .light-font{
+    font-size:14px;
+    color:#666;
+}
+
+.article .info{
+    font-size:14px;
+    color:#3c3a3a;
+}
+
+.wrap hr {
+    opacity:0.6;
+    margin-bottom:30px;
+}
+
+.article .content p{
+    text-indent:0em;
+    margin-bottom:20px;
+    font-family: 微软雅黑;
+}
+
+
+.commentBox .comment_input{
+    width: 100%;
+    height: 70px;
+    padding: 9px;
+    border: 1px solid #d0d5d9;
+    box-shadow: inset 1px 1px 5px #ccc;
+}
+
+.commentBox .button{
+    width: 90px;
+    height: 28px;
+    line-height: 26px;
+    border: 1px solid #1e80c2;
+    background: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    float:right;
+    margin: 19px;
+    margin-right: -22px;
+}
+
+.right {
+    width: 30%;
+    float:right;
+    text-align:right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header_pic {
+    position: relative;
+    top: 18px;
+    left: -16px
+}
+
+.comment_word p {
+    text-indent: 8px;
+    font-family: 微软雅黑;
+}
+
+code {
+    font-size: 20px;
+}

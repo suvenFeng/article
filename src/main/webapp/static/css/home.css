@@ -1,0 +1,68 @@
+@charset "utf-8";
+/***首页面css样式文件***/
+.category {
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+.category .title {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cac5c5;
+    height: 30px;
+    text-indent:1em;
+    font-size:18px;
+    color:#666;
+}
+.category .items {
+    margin-left:10px;
+}
+.category .items .item {
+    width: 230px;
+    height: 320px;
+    background: #ccc;
+    margin: 20px;
+    float: left;
+    margin-right:20px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+}
+
+.category .items .item:hover {
+    transform:scale(1.05);
+}
+
+.category .items .item div {
+    text-align:center;
+}
+
+.item-banner {
+    background: #666;
+    color: #FFF;
+}
+
+.item-header {
+    font-size: 12px;
+    line-height: 52px;
+}
+
+.item-name {
+    font-size: 22px;
+    line-height: 74px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+
+.item-author {
+    font-size: 14px;
+    text-indent: 7em;
+    padding-bottom: 70px;
+}
+
+.item-description {
+    background: #eee;
+    height: 104px;
+    line-height: 76px;
+    text-indent: 3em;
+    font-size: 12px;
+}
